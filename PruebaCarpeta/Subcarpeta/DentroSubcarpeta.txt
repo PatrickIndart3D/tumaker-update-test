@@ -1,0 +1,1 @@
+Archivo colocado dentro de una subcarpeta desde GitHub
