@@ -1,15 +1,17 @@
 {
-  "schemaVersion": 1,
-  "firmware": {
-    "MB6HC": {
-      "version": "3.6.3",
-      "file": "Duet3Firmware_MB6HC.bin"
+    "schemaVersion": 1,
+    "firmware": {
+        "MB6HC": {
+            "version": "3.6.3",
+            "file": "Duet3Firmware_MB6HC.bin"
+        }
+    },
+    "wifi": {
+        "version": "2.3.1",
+        "file": "DuetWiFiServer.bin"
+    },
+    "dwc": {
+        "version": "3.6.4",
+        "file": "DuetWebControl-3.6.4.zip"
     }
-  },
-  "wifi": {
-    "version": "2.3.1"
-  },
-  "dwc": {
-    "version": "3.6.4"
-  }
 }
