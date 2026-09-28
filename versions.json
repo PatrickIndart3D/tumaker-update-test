@@ -8,10 +8,10 @@
     },
     "wifi": {
         "version": "2.3.1",
-        "file": "DuetWiFiServer.bin"
+        "file": "updates/wifi/PruebaWiFi.txt"
     },
     "dwc": {
         "version": "3.6.4",
-        "file": "DuetWebControl-3.6.4.zip"
+        "file": "updates/dwc/PruebaDWC.txt"
     }
 }
