@@ -1,17 +1,28 @@
 {
-    "schemaVersion": 1,
-    "firmware": {
-        "MB6HC": {
-            "version": "3.6.3",
-            "file": "Duet3Firmware_MB6HC.bin"
+  "schemaVersion": 2,
+  "machines": {
+    "MINI_MODULAR_MM0200": {
+      "manufacturer": "INDART3D",
+      "brand": "TUMAKER",
+      "model": "MINI MODULAR",
+      "variant": "MM0200",
+      "hardware": {
+        "mainboard": "MB6HC"
+      },
+      "updates": {
+        "firmware": {
+          "version": "3.6.3",
+          "file": "Duet3Firmware_MB6HC.bin"
+        },
+        "wifi": {
+          "version": "2.3.1",
+          "file": "updates/wifi/PruebaWiFi.txt"
+        },
+        "dwc": {
+          "version": "3.6.4",
+          "file": "updates/dwc/PruebaDWC.txt"
         }
-    },
-    "wifi": {
-        "version": "2.3.1",
-        "file": "updates/wifi/PruebaWiFi.txt"
-    },
-    "dwc": {
-        "version": "3.6.4",
-        "file": "updates/dwc/PruebaDWC.txt"
+      }
     }
+  }
 }
